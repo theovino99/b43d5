@@ -1,24 +1,30 @@
-* {
-    margin: 0;
-    font-family: 'Poppins', sans-serif;
-}
-
 form {
-    width: 350px;
-    margin: 50px auto;
+    margin: auto;
+    max-width: 600px;
+    width: 100%;
 }
 
-div {
+form>div {
     margin-top: 20px;
 }
 
-input, select, textarea {
+input,
+select,
+textarea {
     width: 100%;
-    padding: 10px;
-    background-color: #dfdede;
-    border: 1px solid #dbdbdb;
-    border-radius: 5px;
-    margin-top: 5px;
+    padding: 1rem 2rem;
+    border-radius: 32px;
+    border: 2px solid rgb(223, 223, 223);
+    /* border: none; */
+    background-color: #f7f7f7;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+    margin-top: 10px;
+}
+
+input::placeholder,
+select::placeholder,
+textarea::placeholder {
+    font-weight: 500;
 }
 
 label {
@@ -30,10 +36,5 @@ textarea {
 }
 
 button {
-    background-color: orangered;
-    border: none;
-    color: white;
-    padding: 6px 25px;
-    cursor: pointer;
-    border-radius: 5px;
+    border: 0;
 }
