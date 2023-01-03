@@ -13,3 +13,5 @@ Langkah-langkah yang bisas digunakan dalam pengerjaan ketika menggunakna GIT
 Beberapa pperintah git dalam beberapa skenario
 1. git pull 				#memperbarui data repository yang ada dalam workingspace git 
 2. git checkout -b (nama branch)	#membuat branch baru berdasarkan branch yang saat ini sedang digunakan(sudah ada)
+
+M : Sudah masuk staging 
